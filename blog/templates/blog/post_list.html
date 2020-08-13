@@ -1,37 +1,18 @@
-<html>
-<head>
-    <title>LilDucky</title>
-</head>
-
-
-<body>
-    <style>
-        div.a {text-align :center;}
-
-        div.b {text-align : center;}
-
-    </style>
-
-
-
-    <div class = 'a'>
-        <h1><a href="https://bit.ly/2XmnUu4">LilDucky Fan Club</a></h1>
-    </div>
-
+{% extends 'blog/base.html' %}
+{% block content %}
 
     {% for post in posts %}
 
-        <div class ='b'>
-            <h2><a href="/">{{ post.title }}</a></h2>
-        </div>
-
-        <div>
+        <div class="post">
+            <div class="title">
+                <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
+            </div>
             <p>{{ post.text|linebreaksbr }}</p>
-            <p><b>published: {{ post.published_date }}</b></p>
-        </div>
 
+            <div class="date">
+                {{ post.published_date }}
+            </div>
+        </div>
     {% endfor %}
 
-
-</body>
-</html>
+{% endblock %}
