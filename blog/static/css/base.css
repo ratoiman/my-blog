@@ -1,0 +1,81 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+    background-color: #050002;
+    background-image: url("images/asfalt-light.png");
+}
+
+.content {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 99%;
+    text-align: justify;
+}
+
+.row {
+    width: 100%;
+}
+
+.col-md-8 {
+    width: 100%;
+}
+
+
+.page-header {
+    border: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+
+h1 a {
+    color: darkgoldenrod;
+    font-size: 20pt;
+    text-decoration: underline;
+    float: left;
+}
+
+
+h1 a:hover {
+    background: #ddd;
+    color: black;
+}
+
+h2 a:hover {
+    background: #ddd;
+    color: black;
+}
+
+h2 a {
+    color: darkgoldenrod;
+    font-size: 20pt;
+    text-decoration: underline;
+    float: left;
+
+}

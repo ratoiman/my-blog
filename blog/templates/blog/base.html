@@ -1,11 +1,11 @@
 {% load static %}
 <html>
-
 <head>
-    <title>LilDucky</title>
+    <title>Razvan Ratoi - Student</title>
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
     <link rel="stylesheet" href="{% static 'css/blog.css' %}">
     <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
@@ -14,15 +14,18 @@
 
 <body>
 
-    <div class="page-header">
-        <h1><a href="/">LilDucky Fan-Club</a></h1>
-    </div>
+<div class="navbar">
+    <a href="/"> Home </a>
+    <a href="/"> Blog </a>
+    <a href="/"> Contact </a>
+</div>
 
-    <div class="content container">
-        <div class="row">
-            <div class="col-md-8">
-        {% block content %}
-        {% endblock %}
+
+<div class="content container">
+    <div class="row">
+        <div class="col-md-8">
+            {% block content %}
+            {% endblock %}
         </div>
     </div>
 </div>
