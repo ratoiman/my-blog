@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
     <link rel="stylesheet" href="{% static 'css/navbar.css' %}">
     <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
     <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
 
@@ -15,9 +16,6 @@
 
 <body>
 
-<div class="page-header">
-    <h1><a href="/">Razvan Ratoi - Student</a></h1>
-</div>
 
 <div class="content container">
     <div class="row">
@@ -40,28 +38,15 @@
 
     <div class="navbar-right">
         <ul>
-            <li><a href="/">Contact</a></li>
-            <li><a href="/">Blog</a></li>
+            <li><a href="{% url 'contact' %}">Contact</a></li>
+            <li><a href=" {% url 'post_list' %}" >Blog</a></li>
             <li><a href="/">Home</a></li>
         </ul>
     </div>
 </nav>
 
 
-<script>
 
-    window.onscroll = function () {
-        scrollFunction()
-    };
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-            document.getElementById("navbar").style.top = "0";
-        } else {
-            document.getElementById("navbar").style.top = "-73px";
-        }
-    }
-</script>
 
 </body>
 </html>
