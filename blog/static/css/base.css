@@ -6,10 +6,10 @@ body {
 }
 
 .content {
-    margin-left: 20px;
+    margin-left: 0px;
     margin-right: 20px;
     width: 99%;
-    text-align: justify;
+    padding-top: 10px;
 }
 
 .row {
@@ -18,47 +18,24 @@ body {
 
 .col-md-8 {
     width: 100%;
+    margin-top: 1%;
 }
 
 
 .page-header {
     border: 0;
-    margin-top: 0;
+    margin-top: 4%;
     margin-bottom: 0;
-    padding: 20px 20px 20px 40px;
+    width: 100%;
+    text-align: center;
+
 }
-
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-}
-
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change background on mouse-over */
-.navbar a:hover {
-  background: #ddd;
-  color: black;
-}
-
-
 
 h1 a {
     color: darkgoldenrod;
-    font-size: 20pt;
-    text-decoration: underline;
-    float: left;
+    font-size: 36pt;
+    text-decoration: none;
+    text-align: justify;
 }
 
 
@@ -73,9 +50,19 @@ h2 a:hover {
 }
 
 h2 a {
+    margin-top: 20px;
     color: darkgoldenrod;
     font-size: 20pt;
-    text-decoration: underline;
-    float: left;
+    text-decoration: none;
+    text-align: center;
 
 }
+
+h3 a {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: darkgoldenrod;
+    font-size: 30px;
+}
+
+

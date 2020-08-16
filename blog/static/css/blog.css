@@ -15,7 +15,9 @@
 }
 
 .post {
-    margin-bottom: 35px;
+    margin-bottom: 40px;
+    margin-top: 10px ;
+    margin-left: 20px;
     font-size: 20px;
     width: 100%;
     color: white;

@@ -1,0 +1,101 @@
+#navbar {
+    overflow: hidden;
+    background-color: #050002;
+    background-image: url("images/asfalt-light.png");
+    position: fixed;
+    top: -73px;
+    width: 100%;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    transition: top 0.5s;
+}
+
+#navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 20pt;
+}
+
+#navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.navbar-right li {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.navbar-left {
+    float: left;
+}
+
+.navbar-left li {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: left;
+    text-decoration: none;
+    font-size: 20pt;
+    color: darkgoldenrod;
+    margin-left: -5px;
+}
+
+.navbar_page_detail {
+    overflow: hidden;
+    background-color: #050002;
+    background-image: url("images/asfalt-light.png");
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.navbar_page_detail a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 20pt;
+}
+
+.navbar_page_detail a:hover {
+    background: #ddd;
+    color: black;
+
+}
+
+.navbar-left_pd {
+      float: left;
+}
+
+.navbar-left_pd li {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: left;
+    text-decoration: none;
+    font-size: 20pt;
+    color: darkgoldenrod;
+    margin-left: -20px;
+}

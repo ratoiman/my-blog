@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="stylesheet" href="{% static 'css/navbar.css' %}">
     <link rel="stylesheet" href="{% static 'css/blog.css' %}">
     <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
@@ -14,21 +15,53 @@
 
 <body>
 
-<div class="navbar">
-    <a href="/"> Home </a>
-    <a href="/"> Blog </a>
-    <a href="/"> Contact </a>
+<div class="page-header">
+    <h1><a href="/">Razvan Ratoi - Student</a></h1>
 </div>
-
 
 <div class="content container">
     <div class="row">
         <div class="col-md-8">
+
             {% block content %}
             {% endblock %}
+
         </div>
     </div>
 </div>
+
+
+<nav id="navbar" role="navigation">
+    <div class="navbar-left">
+        <ul>
+            <li>Razvan Ratoi - Student</li>
+        </ul>
+    </div>
+
+    <div class="navbar-right">
+        <ul>
+            <li><a href="/">Contact</a></li>
+            <li><a href="/">Blog</a></li>
+            <li><a href="/">Home</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<script>
+
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-73px";
+        }
+    }
+</script>
 
 </body>
 </html>
