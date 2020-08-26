@@ -10,6 +10,8 @@ body {
     margin-right: 20px;
     width: 99%;
     padding-top: 10px;
+    overflow: hidden;
+    margin-bottom: 25px;
 }
 
 .row {
@@ -19,20 +21,28 @@ body {
 .col-md-8 {
     width: 100%;
     margin-top: 1%;
+
 }
 
 
 .page-header {
     border: 0;
-    margin-top: 4%;
-    margin-bottom: 0;
+    margin-top: 0;
     width: 100%;
     text-align: center;
     color: darkgoldenrod;
-    font-size: 40pt;
-    text-decoration: none;
+    font-size: 50pt;
 
 }
+
+h1 {
+    color: darkgoldenrod;
+    font-size: 50pt;
+    text-decoration: none;
+    text-align: center;
+
+}
+
 
 h1 a {
     color: darkgoldenrod;
@@ -54,12 +64,20 @@ h2 a:hover {
 
 h2 a {
     margin-top: 20px;
+
+    color: darkgoldenrod;
+    font-size: 30pt;
+    text-decoration: none;
+    text-align: left;
+    width: 100%;
+}
+
+h2 {
     color: darkgoldenrod;
     font-size: 20pt;
     text-decoration: none;
-    text-align: center;
-
 }
+
 
 h3 a {
     margin-left: 10px;

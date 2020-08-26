@@ -1,0 +1,67 @@
+.page-footer {
+
+    width: 100%;
+    color: darkgoldenrod;
+    background-color: #050002;
+    background-image: url("images/asfalt-light.png");
+    position: fixed;
+    bottom: 0;
+    padding-right: 50px;
+    padding-top: 1%;
+}
+
+.page-footer a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    font-size: 250%;
+
+}
+
+.page-footer a:hover {
+    opacity: 50%;
+}
+
+.page-footer ul {
+    list-style: none;
+    text-align: center;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-left li {
+    text-decoration: none;
+
+    font-size: 200%;
+}
+
+.footer-right {
+    float: right;
+
+}
+
+.footer-right li {
+    display: inline;
+    color: #f2f2f2;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    text-decoration: none;
+
+
+}
+
+.fa {
+
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}

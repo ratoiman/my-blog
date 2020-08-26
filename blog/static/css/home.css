@@ -13,5 +13,44 @@
     color: white;
     width: 100%;
     margin-left: 25px;
+    margin-bottom: 25px;
 
 }
+
+
+.tech-slideshow {
+    height: 31%;
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+    margin-bottom: 2%;
+    margin-left: 25px;
+}
+
+.tech-slideshow > div {
+    height: 100%;
+    width: 400%;
+    background-image: url(images/images_blog/photoreel/collage.jpg);
+    opacity: 70%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow .mover-1 {
+    animation: moveSlideshow 100s linear infinite;
+}
+
+.tech-slideshow .mover-2 {
+    opacity: 0;
+    animation: moveSlideshow 50s linear infinite;
+}
+
+@keyframes moveSlideshow {
+    100% {
+        transform: translateX(-66.6666%);
+    }
+}
+

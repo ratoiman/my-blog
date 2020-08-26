@@ -1,6 +1,7 @@
 .title {
-    text-align: center;
+    text-align: left;
     font-size: 35px;
+
     color: white;
     padding-bottom: 15px;
 }
@@ -15,9 +16,9 @@
 }
 
 .post {
-    margin-bottom: 40px;
-    margin-top: 10px ;
-    margin-left: 20px;
+    padding-bottom: 40px;
+    padding-top: 10px ;
+    margin-left: 25px;
     font-size: 20pt;
     width: 100%;
     color: white;
