@@ -19,7 +19,7 @@
 
 
 .tech-slideshow {
-    height: 31%;
+    height: 300px;
     max-width: 100%;
     position: relative;
     overflow: hidden;
@@ -29,7 +29,7 @@
 }
 
 .tech-slideshow > div {
-    height: 100%;
+    height: 300px;
     width: 400%;
     background-image: url(images/images_blog/photoreel/collage.jpg);
     opacity: 70%;
