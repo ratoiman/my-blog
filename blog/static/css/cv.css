@@ -1,10 +1,30 @@
-.content {
-    width: 100%;
-    margin-top: 50px;
+
+.cv_title {
+    text-align: left;
+    color: darkgoldenrod;
+    font-size: 30pt;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-top: 60px;
 }
 
-.messages{
-    width: 100%;
-    margin-top: 50px;
+.text {
+    text-align: justify;
+    color: white;
+    font-size: 20pt;
+    padding-left: 25px;
+   line-height: 1.6;
 }
 
+.text p {
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.text a {
+    color: white;
+}
+
+.text a:hover {
+    opacity: 60%;
+}
